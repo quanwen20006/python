@@ -20,7 +20,7 @@ with open(r'./Hotel California.txt',encoding='utf-8',mode='r') as  f:
 
 '''
 result = []
-with open(r'./Hotel California.txt',encoding='utf-8',mode='r') as  f:
+with open(r'./Hotel California.txt', encoding='utf-8', mode='r') as f:
     lines = f.readlines()
     for line in lines:
         print(line)
@@ -29,6 +29,11 @@ with open(r'./Hotel California.txt',encoding='utf-8',mode='r') as  f:
     result = [temp.strip('\n') + ' #' + str(index) + '\n' for index,temp in enumerate(lines)]
 
 
-print('result: ',result)
-with open(r'./Hotel California1.txt',encoding='utf-8',mode='w') as  f:
+print('result: ', result)
+with open(r'./Hotel California1.txt', encoding='utf-8', mode='w') as f:
     f.writelines(result)
+
+
+print("------------")
+for eachline in open("./Hotel California.txt"):
+    print(eachline)
