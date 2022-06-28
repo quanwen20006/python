@@ -47,7 +47,7 @@ print('字符串split', demo.split(' '))
 # join的使用 字符串连接
 # 字符串拼接最好使用join比+号拼接更高效
 new_mster = "-".join("abcdddd")
-print("new_mster: ", new_mster)
+print("new_mster----: ", new_mster)
 
 import time
 time01 = time.time()

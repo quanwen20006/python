@@ -10,6 +10,7 @@ from functools import wraps
 
 def decorator1(func):
     # 使用wraps修饰，再次使用的时候，被修饰的函数的时候，函数名不会被修改
+    print("装饰器的使用---------")
     @wraps(func)
     def wrapper(*args, **kwargs):
         start = time.time()

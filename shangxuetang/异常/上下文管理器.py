@@ -58,15 +58,15 @@ def file_opens(file_name):
 
 
 if __name__ == '__main__':
-    result = exe_try()
-    print(result)
-
-    with Sample() as sample:
-        sample.do_something()
-
-    with open('../../chapter04/animal.py') as f:
-        t = f.readlines()
-        print("open --- file content: ", t)
+    # result = exe_try()
+    # print(result)
+    #
+    # with Sample() as sample:
+    #     sample.do_something()
+    #
+    # with open('../../chapter04/animal.py') as f:
+    #     t = f.readlines()
+    #     print("open --- file content: ", t)
 
 
     print("使用@contextlib.contextmanager实现上下文管理器")

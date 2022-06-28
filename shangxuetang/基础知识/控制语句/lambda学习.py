@@ -1,6 +1,6 @@
 '''
     主要是熟悉python的匿名函数，即高阶函数的使用，在Python中，lambda的语法是唯一的。其形式如下：
-    lambda argument_list: expression
+    lambda <argument_list>: <expression>
 
     其中，lambda是Python预留的关键字，argument_list和expression由用户自定义。具体介绍如下。
 
@@ -37,4 +37,4 @@ print('reduce: ', tempY)
 # filter
 tempA = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 tempZ = filter(lambda x: x % 2 == 1, tempA)
-print(list(tempZ))
+print("filter: ", list(tempZ))

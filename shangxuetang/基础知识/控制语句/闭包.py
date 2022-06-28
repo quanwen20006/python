@@ -6,11 +6,14 @@
 
 def cure_pre():
     a = 25
+    print("函数开始执行----")
     def cure(x):
+        print("函数执行时间----")
         a = 10
         print('cure...', a)
         return a*x*x
     print('cure_pre...', a)
+    print("函数结束执行----")
     return cure
 
 

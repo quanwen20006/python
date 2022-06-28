@@ -27,3 +27,5 @@ print("object的父类是：", object.__bases__)
 # 模版对象
 print("dog的类型是%s Dog类型是%s object类型是%s type的类型是%s" % (type(dog), type(Dog), type(object), type(type)))
 
+for k,v in enumerate(range(1,10,2)):
+    print("{}--- {}".format(k,v))
