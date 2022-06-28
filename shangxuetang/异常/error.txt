@@ -2,3 +2,11 @@ Traceback (most recent call last):
   File "/Users/quanwen/Desktop/WebLearn/PythonLearn/shangxuetang/异常/Traceback.py", line 12, in <module>
     num = 1/0
 ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "/Users/anker/Desktop/python/shangxuetang/异常/Traceback.py", line 12, in <module>
+    num = 1/0
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "/Users/anker/Desktop/python/shangxuetang/异常/Traceback.py", line 12, in <module>
+    num = 1/0
+ZeroDivisionError: division by zero

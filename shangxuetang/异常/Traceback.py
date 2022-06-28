@@ -13,3 +13,6 @@ try:
 except:
     with open('./error.txt','a',encoding='utf-8') as f:
         traceback.print_exc(file=f)
+
+a = [1,2,3,4]
+print(a[6])
