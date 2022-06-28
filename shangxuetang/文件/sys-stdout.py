@@ -1,3 +1,8 @@
+# _*_ coding:utf-8 _*_
+# @time  : 2022/6/28 18:14
+# @Author: quanwen
+# @File  :
+
 import sys
 # 保存原始sys.stdout进行备份
 save_stdout = sys.stdout
